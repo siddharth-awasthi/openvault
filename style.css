@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    background-color: rgb(0, 0, 35);
+}
+.container {
+    display: flex;
+    
+    height:100%;
+    color: rgb(140, 236, 236);}
+
+.main {
+    width: 90vw;    /*background-color: yellow;*/
+    padding: 1vw;
+}
+
+.containermain {
+    height: 71vh;
+    /* background-color: pink; */
+    width: 85vw;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10vw;
+    font-family: 'Titillium Web', sans-serif;
+    flex-wrap: wrap;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.devpic img {
+    height: 420px;
+    width: 315px;
+}
+
+.devinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    font-size: 22px;
+}
+
+.hello {
+    font-size: 2.5em;
+    font-weight: bolder;
+    
+}
+
+.about {
+    font-size: 1em;
+    font-weight: bold;
+
+
+}
+
+.name {
+    font-size: 2.3em;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.btn {
+    padding: 9px 13px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: white;
+    background-color: crimson;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: crimson;
+    box-shadow: 
+    ;
+}
+
+.buttons {
+    margin-top: 23px;
+
+}
+
+.contactform {
+    padding: 0 84px;
+
+}
+
+.contactform h1 {
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 144px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contactform form div {
+    padding-top: 19px;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp {
+    font-size: 12px;
+    margin: 0 12px;
+}
+
+.contactform form div input {
+    width: 25vw;
+    border-radius: 6px;
+    font-size: 12px;
+    padding: 3px;
+}
+
+.btn-primary {
+    font-size: 14px;
+}
+
+.intro {
+    font-family: 'Fasthand';
+    margin-bottom: 58px;
+}
+
+.intro p {
+    padding: 14px 0;
+}
+
+.skills {
+    display: flex;
+    color: black;
+    margin-top: 15px;
+}
+
+#html {
+    width: 190px;
+    height: 13px;
+    background-color: red;
+    margin-top: 11px;
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+
+#css {
+    width: 190px;
+    height: 13px;
+    background-color: red;
+    margin: 15px;
+    margin-left: 2px;
+    margin-right: 2px
+}
+
+#cpp {
+    width: 160px;
+    height: 13px;
+    background-color: red;
+    margin: 15px;
+    margin-left: 2px;
+    margin-right: 2px border: 2px solid black;
+}
+
+#js {
+    width: 130px;
+    height: 13px;
+    background-color: red;
+    margin: 15px;
+    margin-left: 2px;
+    margin-right: 2px border: 2px solid black;
+}
+
+#python {
+    width: 140px;
+    height: 13px;
+    background-color: red;
+    margin: 15px;
+    margin-left: 2px;
+    margin-right: 2px border: 2px solid black;
+}
+
+
+p.percent {
+    padding: 3px;
+    font-weight: bold;
+}
+
+.sidebar {
+    position: absolute;
+    font-family: 'Agdasima', sans-serif;
+    font-weight: bold;
+    background-color:  rgba(29, 189, 221, 0.932);
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav li a:hover{
+    text-shadow: 0 0 1rem;
+}
+
+
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 25px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    font-size: 40px;
+    color: rgba(252, 232, 232, 0.861);
+}
+.sidebar nav {
+    padding: 40px;
+
+}
+
+.sidebargo{
+        transform: translate(-330px);
+        position: absolute;
+}
+
+.ham img {
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.cross img {
+    width: 69px;
+    height: 27px;
+    position: absolute;
+    left: 133px;
+    top: 10px;
+    cursor: pointer;
+}
+@media (max-width: 800px) {
+    .devinfo{
+        font-size: 15px;
+    }
+     
+  }
+  .skillist{
+    color: white;
+    font-size: 22px;
+
+  }
+  .percentageno{
+    color: white;
+    font-size: 22px;
+  }
+  
